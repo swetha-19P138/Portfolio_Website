@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@1,500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    min-height: 100%;
+}
+body {
+    min-height: 100%;
+}
+body{
+    overflow-x: hidden;
+    background: url("https://cutewallpaper.org/21/background-gif-animation/Pin-on-Gifs-%E2%98%86.gif");
+    /* background:url("https://media.tenor.com/9s6KUVRceC0AAAAC/heker.gif"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Rokkitt', serif;
+}
+.home_base{
+    font-family: 'Rokkitt', serif;
+}
+.internship{
+    font-family: 'Rokkitt', serif;
+}
+#education{
+    font-family: 'Rokkitt', serif;
+}
+
+#projects{
+    font-family: 'Rokkitt', serif;
+ 
+}
+
+.pro_c{
+    margin-top: 100px;
+    margin-bottom: 250px;
+    align-items: center;
+}
+
+#contact{
+    font-family: 'Rokkitt', serif;
+}
+footer{
+    font-family: 'Rokkitt', serif;
+}
+
+.about{
+    max-height: 80%;
+}
+.profile-img1{
+    align-self: center;
+}
+
+.profile-img2{
+    /* display:flex;
+    justify-content:center; */
+    align-self: center;
+   
+}
+.profile-img2_1{
+    display:flex;
+    justify-content:center;
+    align-self: center;
+}
+.profile-img2_2{
+    display:flex;
+    justify-content:center;
+    align-self: center;
+}
+
+.intern{
+   
+    justify-content: center;
+}
+.edu{
+    /* background-image: url("https://cdn.pixabay.com/photo/2016/11/18/16/49/books-1835753_640.jpg"); */
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+   
+}
+.edub{
+    background-color: linear-gradient(toRight,rgb(111, 197, 228),rgb(175, 146, 237));
+}
+.edu-title{
+    height: 80px;
+}
+ 
+.edu-list{
+    height: 200px;
+ 
+} 
+
+
+.projects{
+  
+  display: flex;
+ 
+   align-self: center;
+   opacity: 1;
+}
+ .list1{
+    display: flex;
+    flex-direction: column;
+   
+} 
+ /* .list{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+   
+
+}  */
+/* .list:hover{
+   
+    height: 150px;
+    opacity: 1;
+    
+} */
+
+/* .list1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+} */
+
+/* .pi{
+    width:100px;
+    height: 100px;
+}
+.pim{
+    width: 20px;
+    height: 20px;
+}
+
+.pc{
+    height:  80px;
+} */
+.pro{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.text-justify{
+    display: hidden;
+    text-align: justify;
+}
+
+
+.formc{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: end;
+    background-color: black;
+}
+.contact{
+    background:url("https://thecodevision.com/wp-content/uploads/2023/01/Contact-Us1.webp");
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.card{
+    cursor: pointer;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    background:linear-gradient(rgb(255, 255, 255),rgb(89, 180, 241));
+    color: white;
+  }
+
+.edu-list button:hover{
+    background:linear-gradient(rgb(89, 180, 241),rgb(73, 73, 73)
+    );
+    transform: scale(1.1);
+    transition-duration:  2s;
+    transition: 0.5s ease-in;
+  }
+
+.pro_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.para{
+    display: hidden;
+}
+.card-thumbnail{
+    width: 80%;
+    height: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ 
+}
